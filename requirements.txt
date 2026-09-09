@@ -1,0 +1,21 @@
+# FastAPI 应用依赖
+fastapi==0.115.0
+uvicorn==0.30.0
+pydantic==2.8.2
+
+# API 测试依赖
+requests==2.32.3
+pytest==8.3.2
+pytest-html==4.1.1
+pytest-cov==5.0.0
+
+# Web 自动化依赖
+selenium==4.27.1
+webdriver-manager==4.0.1
+
+# 日志和报告
+pytest-json-report==1.5.0
+allure-pytest==2.13.2
+
+# 其他工具
+python-dotenv==1.0.1
