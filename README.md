@@ -2,7 +2,7 @@
 
 这是一个从零开始学习自动化测试的完整项目，包含 **API 接口测试**、**Web 自动化测试** 和 **HTML 测试报告生成**。
 
-## 📚 项目结构
+## 📋 项目结构
 
 ```
 fastapi-automation-testing/
@@ -19,7 +19,6 @@ fastapi-automation-testing/
 │   ├── API_TESTING_GUIDE.md     # API 测试教程
 │   └── WEB_TESTING_GUIDE.md     # Web 测试教程
 ├── reports/                      # 测试报告输出目录
-├── .github/workflows/            # GitHub Actions CI/CD
 ├── requirements.txt              # 项目依赖
 ├── pytest.ini                    # Pytest 配置文件
 └── README.md                     # 项目说明
@@ -63,7 +62,7 @@ pytest tests/test_web.py -v
 pytest --cov=app tests/ --html=reports/report.html --self-contained-html
 ```
 
-## 📖 学习内容
+## 📚 学习路线图
 
 ### 第1部分：准备工作 ✅
 - [x] 项目结构设计
@@ -71,38 +70,38 @@ pytest --cov=app tests/ --html=reports/report.html --self-contained-html
 - [x] 依赖安装
 
 ### 第2部分：构建 FastAPI 应用
-- 创建简单的 REST API
-- 实现数据模型和业务逻辑
-- 添加数据库操作
+- [ ] 创建简单的 REST API
+- [ ] 实现数据模型和业务逻辑
+- [ ] 添加数据库操作
 
 ### 第3部分：API 接口自动化测试
-- Requests 库基础
-- 参数化测试 (parametrize)
-- 数据驱动测试
-- 前置/后置处理 (Setup/Teardown)
+- [ ] Requests 库基础
+- [ ] 参数化测试 (parametrize)
+- [ ] 数据驱动测试
+- [ ] 前置/后置处理 (Setup/Teardown)
 
 ### 第4部分：Web 自动化测试
-- Selenium 基础
-- 元素定位策略
-- 等待机制 (显式/隐式等待)
-- Page Object 模式
+- [ ] Selenium 基础
+- [ ] 元素定位策略
+- [ ] 等待机制 (显式/隐式等待)
+- [ ] Page Object 模式
 
 ### 第5部分：测试报告
-- pytest-html 报告生成
-- 测试覆盖率 (Coverage)
-- 报告定制和美化
+- [ ] pytest-html 报告生成
+- [ ] 测试覆盖率 (Coverage)
+- [ ] 报告定制和美化
 
 ### 第6部分：持续集成
-- GitHub Actions 配置
-- 自动化测试流程
-- 通知和报告
+- [ ] GitHub Actions 配置
+- [ ] 自动化测试流程
+- [ ] 通知和报告
 
 ## 🎯 核心命令速查
 
 | 命令 | 说明 |
 |------|------|
 | `pytest -v` | 详细模式运行所有测试 |
-| `pytest -v --tb=short` | 简短的错误追踪 |
+| `pytest -v --tb=short` | 简短的错误跟踪 |
 | `pytest tests/test_api.py::test_create_user -v` | 运行特定测试 |
 | `pytest -k "test_get" -v` | 按名字过滤测试 |
 | `pytest --collect-only` | 只显示测试不运行 |
@@ -116,10 +115,6 @@ pytest --cov=app tests/ --html=reports/report.html --self-contained-html
 - [Pytest 官方文档](https://docs.pytest.org/)
 - [Requests 文档](https://docs.python-requests.org/)
 - [Selenium 文档](https://selenium.dev/documentation/)
-
-## 📝 学习笔记
-
-在学习过程中可以在本项目的 `docs/` 目录下查看详细的教程和笔记。
 
 ## 💡 提示
 
